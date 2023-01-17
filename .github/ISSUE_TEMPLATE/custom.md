@@ -8,8 +8,8 @@ assignees: ''
 ---
 
 jobs:
-- job: Build
-  displayName: Build Maven Project
+- deployment : VMDeploy
+  displayName: vm
   steps:
   - task: Maven@3
     displayName: 'Maven Package'
